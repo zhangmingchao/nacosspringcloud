@@ -7,10 +7,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @SpringBootApplication
 //@NacosPropertySource(dataId = "example", autoRefreshed = true)
 @EnableDiscoveryClient
-public class NacosBootUserApplication {
+public class ProviderApp {
 
     public static void main(String[] args) {
-        SpringApplication.run(NacosBootUserApplication.class, args);
+        SpringApplication.run(ProviderApp.class, args);
     }
 
 }

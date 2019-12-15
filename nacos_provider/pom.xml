@@ -9,24 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>nacos-springboot</artifactId>
-
+    <artifactId>nacos_provider</artifactId>
 
     <dependencies>
-         <!--1. nacos-配置管理功能依赖-->
-        <!--<dependency>-->
-            <!--<groupId>com.alibaba.boot</groupId>-->
-            <!--<artifactId>nacos-config-spring-boot-starter</artifactId>-->
-            <!--<version>0.2.1</version>-->
-        <!--</dependency>-->
-        <!--&lt;!&ndash; 2. nacos-服务发现功能依赖 &ndash;&gt;-->
-        <!--<dependency>-->
-            <!--<groupId>com.alibaba.boot</groupId>-->
-            <!--<artifactId>nacos-discovery-spring-boot-starter</artifactId>-->
-            <!--<version>0.2.1</version>-->
-        <!--</dependency>-->
-
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
@@ -44,8 +29,6 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
-
     </dependencies>
 
 </project>

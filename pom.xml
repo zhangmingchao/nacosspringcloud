@@ -11,6 +11,7 @@
     <modules>
         <module>springboot-test</module>
         <module>nacos-springboot</module>
+        <module>nacos_provider</module>
     </modules>
 
     <parent>
@@ -47,7 +48,15 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>0.2.2.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
         </dependencies>
+
     </dependencyManagement>
 
     <build>
