@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/user")
 public class UserController {
 
-    @NacosValue(value = "${name:null}", autoRefreshed = true)
-    private String name;
+    @NacosValue(value = "${userName:null}", autoRefreshed = true)
+    private String userName;
 
-    @RequestMapping(value = "/getAll")
+    @RequestMapping(value = "/getUserName")
     @ResponseBody
     public String getUser() {
-        return name;
+        return userName;
     }
 }
